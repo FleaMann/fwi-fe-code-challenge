@@ -26,14 +26,32 @@ const CreateNewPlayer = (props) => {
         <h4>Create New Player</h4>
       </header>
       <div className="Content">
-        <input type="text" placeholder="Name" />
-        <input type="text" placeholder="Country" />
-        <input type="text" placeholder="Winnings" />
+        <input
+          type="text"
+          placeholder="Name"
+          onChange={props.nameChanged}
+          value={props.name}
+        />
+        <input
+          type="text"
+          placeholder="Country"
+          onChange={props.countryChanged}
+          value={props.country}
+        />
+        <input
+          type="text"
+          placeholder="Winnings"
+          onChange={props.winningsChanged}
+          value={props.winnings}
+        />
       </div>
       <div className="Buttons">
         <Button>Save</Button>
         <Button onClick={props.hideModal}>Exit</Button>
       </div>
+      <p>
+        Name: {props.name} Country: {props.country} Winnings: {props.winnings}
+      </p>
     </div>
   );
 };

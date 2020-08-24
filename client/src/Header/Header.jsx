@@ -8,6 +8,9 @@ import { ReactComponent as CloudEffects } from './cloud-effects.svg';
 
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
+  const [name, setName] = useState('');
+  const [country, setCountry] = useState('');
+  const [winnings, setWinnings] = useState('');
 
   const handleShowModal = () => {
     setShowModal(true);
@@ -17,9 +20,31 @@ const Header = () => {
     setShowModal(false);
   };
 
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+  const handleCountryChange = (event) => {
+    setCountry(event.target.value);
+  };
+
+  const handleWinningsChange = (event) => {
+    setWinnings(event.target.value);
+  };
+
   let modal = null;
   if (showModal) {
-    modal = <CreateNewPlayer hideModal={handleHideModal} />;
+    modal = (
+      <CreateNewPlayer
+        hideModal={handleHideModal}
+        nameChanged={handleNameChange}
+        countryChanged={handleCountryChange}
+        winningsChanged={handleWinningsChange}
+        name={name}
+        country={country}
+        winnings={winnings}
+      />
+    );
   }
 
   return (

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef0bec8-fdc8-42e9-b3d5-50c25db68d46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/CreateNewPlayer/CreateNewPlayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CreateNewPlayer/CreateNewPlayer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/PlayerTable/PlayerTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PlayerTable/PlayerTable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/appState/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/appState/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/appState/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/appState/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/appState/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/appState/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/appState/playerIds.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/appState/playerIds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/PlayersController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/PlayersController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +55,7 @@
       <updated>1597980994637</updated>
       <workItem from="1597980995726" duration="1383000" />
       <workItem from="1598025327258" duration="7854000" />
-      <workItem from="1598049409446" duration="32594000" />
+      <workItem from="1598049409446" duration="36933000" />
     </task>
     <servers />
   </component>
