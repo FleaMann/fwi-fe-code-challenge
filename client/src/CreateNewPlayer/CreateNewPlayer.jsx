@@ -1,8 +1,8 @@
 import React from 'react';
 import './CreateNewPlayer.scss';
 import { Button } from 'bootstrap-react';
-// import { useDispatch } from 'react-redux';
-//
+import { useDispatch } from 'react-redux';
+
 // import { createPlayersSuccess } from '../appState/actions';
 
 const CreateNewPlayer = (props) => {
