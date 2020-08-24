@@ -6,6 +6,7 @@ import './index.scss';
 import App from './App';
 import rootReducer from './appState/index';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const store = createStore(
   rootReducer,

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const uuid = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid');
 const Joi = require('joi');
 const {
   COUNTRIES,
@@ -95,7 +95,7 @@ class PlayersController {
 
   create(record, validate = true) {
     const data = this.readData();
-    const player = Object.assign({}, record, { id: uuid() });
+    const player = Object.assign({}, record, { id: uuidv4() });
     if (!record.imageUrl) {
       player.imageUrl = `http://i.pravatar.cc/40?u=${player.id}`;
     }
