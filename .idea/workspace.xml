@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="bef0bec8-fdc8-42e9-b3d5-50c25db68d46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/CreateNewPlayer/CreateNewPlayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/CreateNewPlayer/CreateNewPlayer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/PlayerTable/PlayerTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PlayerTable/PlayerTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/PlayerTable/PlayerTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PlayerTable/PlayerTable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/PlayerTable/TableBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/PlayerTable/TableBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/appState/playerIds.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/appState/playerIds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/appState/players.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/appState/players.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +61,7 @@
       <updated>1597980994637</updated>
       <workItem from="1597980995726" duration="1383000" />
       <workItem from="1598025327258" duration="7854000" />
-      <workItem from="1598049409446" duration="36933000" />
+      <workItem from="1598049409446" duration="57092000" />
     </task>
     <servers />
   </component>
@@ -100,18 +106,18 @@
     </state>
     <state x="-1180" y="269" width="1080" height="577" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1280.169.1280.777/0.23.1920.989@-1280.169.1280.777" timestamp="1598237274413" />
     <state x="150" y="150" width="1620" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1280.169.1280.777/0.23.1920.989@0.23.1920.989" timestamp="1598147545624" />
-    <state x="-874" y="175" width="600" height="771" key="find.popup" timestamp="1598239522093">
-      <screen x="-1280" y="169" width="1280" height="777" />
+    <state x="406" y="120" width="600" height="514" key="find.popup" timestamp="1598320164919">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="-874" y="175" width="600" height="771" key="find.popup/-1280.169.1280.777/0.23.1920.989@-1280.169.1280.777" timestamp="1598239522093" />
     <state x="609" y="30" width="900" height="982" key="find.popup/-1280.169.1280.777/0.23.1920.989@0.23.1920.989" timestamp="1598152539795" />
-    <state x="406" y="120" width="600" height="514" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1598157042008" />
-    <state x="303" y="34" width="672" height="767" key="search.everywhere.popup" timestamp="1598245681266">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="406" y="120" width="600" height="514" key="find.popup/0.23.1280.709@0.23.1280.709" timestamp="1598320164919" />
+    <state x="303" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1598324466860">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="-977" y="202" width="672" height="744" key="search.everywhere.popup/-1280.169.1280.777/0.23.1920.989@-1280.169.1280.777" timestamp="1598239669017" />
     <state x="455" y="65" width="1008" height="947" key="search.everywhere.popup/-1280.169.1280.777/0.23.1920.989@0.23.1920.989" timestamp="1598152948503" />
     <state x="303" y="34" width="672" height="767" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598245681266" />
-    <state x="303" y="53" width="672" height="678" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1598067890874" />
+    <state x="303" y="53" width="672" height="678" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1598324466860" />
   </component>
 </project>

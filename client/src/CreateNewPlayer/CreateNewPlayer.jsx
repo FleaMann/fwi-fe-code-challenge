@@ -1,25 +1,8 @@
 import React from 'react';
 import './CreateNewPlayer.scss';
 import { Button } from 'bootstrap-react';
-import { useDispatch } from 'react-redux';
-
-// import { createPlayersSuccess } from '../appState/actions';
 
 const CreateNewPlayer = (props) => {
-  // const dispatch = useDispatch();
-  // useEffect(() => {
-  //   (async function createPlayer() {
-  //     const response = await postMessage('http://localhost:3001/players', {
-  //       headers: {
-  //         Accept: 'application/json',
-  //       },
-  //     });
-  //
-  //     const json = await response.json();
-  //     dispatch(createPlayersSuccess(json));
-  //   })();
-  // }, [dispatch]);
-
   return (
     <div className="CreateNewPlayer">
       <header>
@@ -37,19 +20,21 @@ const CreateNewPlayer = (props) => {
           placeholder="Country"
           onChange={props.countryChanged}
           value={props.country}
+          maxLength="2"
         />
         <input
-          type="text"
+          type="number"
           placeholder="Winnings"
           onChange={props.winningsChanged}
           value={props.winnings}
         />
       </div>
       <div className="Buttons">
-        <Button>Save</Button>
+        <Button onClick={props.saveNewPlayer}>Save</Button>
         <Button onClick={props.hideModal}>Exit</Button>
       </div>
       <p>
+        {/*I left these here to show my two-way binding was set up*/}
         Name: {props.name} Country: {props.country} Winnings: {props.winnings}
       </p>
     </div>

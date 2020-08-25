@@ -131,10 +131,13 @@ added any additional steps.
 
 ### Challenge Checklist
 
-- [ ] Create Player
-- [ ] Modify Player
-- [ ] Delete Player
-- [ ] Implement sorting (optional)
+- [x] Create Player - through postman but was VERY close inside the Header.jsx,
+      please see comments left there
+- [ ] Modify Player - if I had more time and could figure out my POST issues,
+      this would have been a quick and similar pattern to follow
+- [] Delete Player - if I had more time and could figure out my POST issues,
+  this would have been a quick and similar pattern to follow
+- [x ] Implement sorting (optional)
 - [ ] Lazy loading/pagination (optional)
 - [ ] Tests (optional)
 

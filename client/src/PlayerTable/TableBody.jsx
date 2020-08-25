@@ -4,8 +4,9 @@ import Flags from 'react-world-flags';
 
 import Avatar from '../Avatar';
 import { COUNTRIES } from '../constants';
+import { Button } from 'bootstrap-react';
 
-const TableBody = ({ players }) => {
+const TableBody = ({ players }, props) => {
   return (
     <table
       id="player-table-body"
@@ -17,6 +18,10 @@ const TableBody = ({ players }) => {
           <tr key={id} role="row" className="table__row">
             <td role="gridcell" className="table__avatar">
               <Avatar src={imageUrl} />
+              {/*If I had more time I would have made both of the buttons
+              functional and laid them out better using flex in this row*/}
+              <Button onClick={(id) => props.deletePlayer}>Delete </Button>
+              <Button onClick={(id) => props.updatePlayer}>Update </Button>
             </td>
             <td role="gridcell" className="table__player">
               {name}
